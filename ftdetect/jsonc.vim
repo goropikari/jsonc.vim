@@ -10,3 +10,4 @@ autocmd BufNewFile,BufRead coffeelint.json setlocal filetype=jsonc
 autocmd BufNewFile,BufRead tsconfig*.json setlocal filetype=jsonc
 autocmd BufNewFile,BufRead jsconfig.json setlocal filetype=jsonc
 autocmd BufNewFile,BufRead */.vscode/*.json setlocal filetype=jsonc
+autocmd BufNewFile,BufRead */.devcontainer/*.json setlocal filetype=jsonc
